@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff251e54</color>
+    <color name="colorPrimaryDark">#ff251e54</color>
+    <color name="colorAccent">#ff251e54</color>
+
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#757575</color>
+    <color name="light_wieht">#ffffffff</color>
+    <color name="ramady">#888484</color>
+</resources>
+

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:paddingVertical="10dp"
+        android:paddingHorizontal="10dp"
+        android:textAlignment="center"
+        android:id="@+id/text_dialog"
+        android:text="mohamed"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingHorizontal="30dp"
+        android:paddingVertical="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/cancel"
+            android:text="إالغاء"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="5dp"
+            android:textSize="22sp"
+            android:textStyle="normal"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="5dp"
+            android:id="@+id/ok"
+            android:text="تأكيد "
+            android:textSize="22sp"
+            android:textStyle="normal"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/text_font</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:fontFamily">@font/text_font</item>
+
+    </style>
+
+    <style name="TextLabel" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+
+        <item name="android:textColorHint">#4E4A4A</item>
+        <item name="android:textSize">18sp</item>
+        <item name="colorControlNormal">#fff</item>
+        <item name="colorControlActivated">#000000</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#000</item>
+    </style>
+</resources>

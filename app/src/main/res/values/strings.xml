@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">أمانة بغداد</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_name2">تطبيق المسح الميدانى</string>
+    <string name="un">اسم المستخدم</string>
+    <string name="pw">كلمة المرور</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="type">نوع المحل</string>
+    <string name="shopactivity">نوع النشاط</string>
+    <string name="no">لم يتم إضافة بيانات لوحة بعد</string>
+    <string name="sh">لم يتم إضافة بيانات محل بعد</string>
+    <string name="fonttype">نوع الخط</string>
+    <string name="owner_name_error">خطا</string>
+    <string name="shopname">اسم المحل</string>
+    <string name="violencesgroup">مجموعة المخالفات</string>
+    <string name="actionname">الاجراء</string>
+    <string name="violencename">اسم المخالفه</string>
+    <string name="no2">لم يتم اضافة بيانات مخالفة بعد</string>
+    <string name="no3">لم يتم إضافة بيانات مخالفة بعد</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+</resources>
+

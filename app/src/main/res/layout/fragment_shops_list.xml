@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:layoutDirection="rtl"
+    tools:context=".Views.bill_board_list.BillListFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:weightSum="10">
+
+        <LinearLayout
+
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#251e54"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/bahij_thesansarabic_semibold"
+                android:text="المحلات"
+                android:textColor="@color/light_wieht"
+                android:textSize="21sp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            android:layout_weight="9"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/add_shop_intent_btn"
+                android:text="اضافه محل"
+                android:textSize="16sp"
+                android:fontFamily="@font/bahij_thesansarabic_bold"
+                android:textColor="#ffffff"
+                android:layout_width="150dp"
+                android:background="@drawable/btn_shap_next"
+                android:layout_margin="5dp"
+                android:layout_height="wrap_content" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#fff">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/main_shops"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:clipToPadding="false"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:scrollbars="vertical" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:textAppearance="?android:textAppearanceMedium" />
+
+                <ProgressBar
+                    android:visibility="gone"
+                    android:id="@+id/loading_indicator"
+                    style="@style/Widget.AppCompat.ProgressBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true" />
+
+                <LinearLayout
+                    android:id="@+id/empty_view"
+                    android:visibility="visible"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/shap"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="152dp"
+                        android:layout_height="152dp"
+                        android:src="@drawable/g_ic_icon_store" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/bahij_thesansarabic_plain"
+                        android:textColor="#383838"
+                        android:textSize="16sp"
+                        android:layout_margin="10dp"
+                        android:text="@string/sh" />
+
+                    <Button
+                        android:id="@+id/add_shop_intent_btn2"
+                        android:text="اضافه محل"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/bahij_thesansarabic_bold"
+                        android:textColor="#ffffff"
+                        android:layout_width="150dp"
+                        android:background="@drawable/btn_shap_next"
+                        android:layout_margin="5dp"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</FrameLayout>
